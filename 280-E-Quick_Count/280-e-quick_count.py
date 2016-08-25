@@ -20,7 +20,7 @@ def countleft(fingers, number):
             number += i * 10
     if fingers[4] == "1":
         number += 50
-    return(number)
+    return number
 
 for lines in input:
     try:
